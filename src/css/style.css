@@ -1,0 +1,28 @@
+body {margin:0px;    background: #efefef;font-family: 'Nunito Sans', sans-serif;font-weight: 300;font-size: 18px;}
+h2 {font-family: 'Nunito Sans', sans-serif;font-weight: 300;font-size: 18px;}
+
+/* Header Styles */
+.header-bar {background: white;width: 100%; box-shadow: 5px 5px 5px #00000014;}
+.header-bar .inner {padding:20px;display: flex;justify-content: space-between;}
+.header-bar h1 {margin: 0px;font-family: 'Nunito Sans', sans-serif;font-weight: 700; font-size: 22px;}
+.header-bar #darkMode {margin: 0px;font-family: 'Nunito Sans', sans-serif;font-weight: 300; font-size: 22px;cursor: pointer;}
+.header-bar #darkMode:hover {text-decoration: underline;}
+
+/* Dark Theme */
+.dark .header-bar {background:hsl(209, 20%, 27%)!important;    box-shadow: 0px 2px 3px hsl(209, 23%, 18%);}
+.dark .header-bar h1 {color:white;}
+.dark #darkMode {color:white;}
+.dark  {background: hsl(209, 23%, 22%);}
+.dark #filterCountry {box-shadow: 0px 2px 3px hsl(209, 23%, 18%);
+    border: 1px solid #354552!important;color:white;background:hsl(209, 20%, 27%)!important}
+.dark #search {color:white}
+.dark #dropdownFilter select {background: hsl(209, 23%, 22%); color:white;}
+.dark .content {color:white; background: hsl(209, 20%, 27%)!important}
+.dark .information {color:white;}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+
+.header-bar #darkMode {    font-size: 18px;line-height: 30px;}
+}
