@@ -1,4 +1,5 @@
 # rest-countries
+A Front End Mentor challenge project. Displaying API data for countries using a JS Library of your choice. (Vuejs for this example).
 
 ## Project setup
 ```
